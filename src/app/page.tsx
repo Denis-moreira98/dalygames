@@ -1,7 +1,13 @@
+import { Container } from "@/components/container";
+
 export default function Home() {
    return (
       <main className="flex">
-         <h1>TESTE</h1>
+         <Container>
+            <h1 className="text-center font-bold text-xl mt-8 mb-5">
+               Separamos um jogo exclusivo para você
+            </h1>
+         </Container>
       </main>
    );
 }
