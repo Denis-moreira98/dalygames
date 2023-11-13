@@ -3,6 +3,12 @@ import Image from "next/image";
 import userImg from "public/user.png";
 import { FaShareAlt } from "react-icons/fa";
 import { FavoriteCard } from "./components/favorite";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+   title: "Meu perfil - Daly Games sua plataforma de jogos",
+   description: "Perfil Denis Moreira",
+};
 
 export default function Profile() {
    return (
