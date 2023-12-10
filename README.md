@@ -1,26 +1,28 @@
-## Projeto CineFlix 🎞️🎥
+## Projeto DalyGames 🕹️🎮
 
 Resumo:
-Este aplicativo consome uma API externa de filmes, oferecendo funcionalidades envolventes, desde exibir os filmes em cartaz até proporcionar uma experiência personalizada de "Meus Filmes".
+Um projeto dinâmico desenvolvido em Next.js que mergulha no universo dos jogos. Utilizando uma API externa com os principais jogos, o DalyGames oferece uma experiência envolvente com um menu dinâmico, detalhes de jogos e a capacidade de personalizar a lista de jogos favoritos.
 
-![Captura de Tela (230)](https://github.com/Denis-moreira98/cine-flix-react/assets/72985107/d0f4ff8c-2f0d-480c-8722-fdd5f78ff522)
+![Captura de Tela (219)](https://github.com/Denis-moreira98/dalygames/assets/72985107/7f5db653-6e76-414b-9d23-0eb5ed231990)
+
 
 ## Funcionalidades Principais:
 
--  Em Cartaz Agora: Apresenta uma lista dinâmica dos filmes atualmente em cartaz nos cinemas, fornecendo aos usuários acesso imediato às últimas estreias;
+-  Menu Dinâmico de Indicação: Construí um menu que dinamicamente sugere um jogo, proporcionando aos usuários uma recomendação personalizada sempre que acessam o aplicativo;
 
--  Detalhes do Filme: Ao selecionar um filme, os usuários podem explorar detalhes como sinopse, classificação e assistir ao trailer diretamente na aplicação;
+-  Lista de Jogos: Apresenta uma lista abrangente dos principais jogos, permitindo aos usuários explorar e descobrir novos títulos.
 
--  Favoritos e "Meus Filmes": Permite aos usuários salvar filmes como favoritos, criando uma lista personalizada em "Meus Filmes". Aqui, eles podem revisitar suas escolhas e, se desejado, remover filmes da lista;
+-  Detalhes do Jogo: Ao clicar em um jogo específico, os usuários são levados a uma página detalhada com informações abrangentes sobre o jogo, proporcionando uma experiência imersiva.
 
--  Acesso Rápido a Trailers: A funcionalidade de acesso rápido a trailers permite aos usuários mergulhar nas prévias dos filmes antes de decidirem assisti-los.
-
+-  Barra de Pesquisa: Implementei uma barra de pesquisa intuitiva que permite aos usuários encontrar rapidamente os jogos desejados, tornando a navegação mais eficiente.
+  
+-  Perfil do Usuário: Os usuários podem cadastrar seus jogos favoritos no perfil, personalizando a experiência de jogo de acordo com suas preferências.
 ## Tecnologias Utilizadas:
 
--  React: Para uma experiência de usuário dinâmica e responsiva.
--  API de Filmes Externa: Integração para obter informações atualizadas sobre os filmes em cartaz.
+-  Next.js: Para uma renderização eficiente do lado do servidor e uma experiência de usuário rápida.
+-  API de Jogos Externa: Integração para obter informações sobre os principais jogos.
 
-### Confira o [deploy](https://cine-flix-react.vercel.app/).
+### Confira o [deploy](https://dalygames.vercel.app/).
 
 ## Para Rodar localmente na sua máquina:
 
@@ -33,9 +35,14 @@ Instale as dependências
 Inicie o servidor da Aplicação
 
 ```bash
-  npm run start
+  npm run dev
 ```
 
-![Captura de Tela (231)](https://github.com/Denis-moreira98/cine-flix-react/assets/72985107/e9b10b16-54a5-46ea-a3da-11ea8c46cdbd)
-![Captura de Tela (232)](https://github.com/Denis-moreira98/cine-flix-react/assets/72985107/e14c8aa4-2ac5-4d05-b558-924a203f9300)
-![Captura de Tela (233)](https://github.com/Denis-moreira98/cine-flix-react/assets/72985107/b0d4c13c-f950-4e8c-ae99-40cd65ad3069)
+![Captura de Tela (221)](https://github.com/Denis-moreira98/dalygames/assets/72985107/6c56df89-6b44-4ea6-9dc0-b3831062bb79)
+
+![Captura de Tela (223)](https://github.com/Denis-moreira98/dalygames/assets/72985107/9334b9f7-e697-4cff-b107-35469b0dd04e)
+
+![Captura de Tela (220)](https://github.com/Denis-moreira98/dalygames/assets/72985107/36221d79-c6e4-4ba5-9001-5d603a916a77)
+
+
+
